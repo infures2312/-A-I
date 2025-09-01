@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+.env
+
+# IDE files
+*.idea
+*.vscode
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+.vs/
+*.pyo
+*.pyd
