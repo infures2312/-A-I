@@ -31,3 +31,5 @@ def ask():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
+print("RAW DATA:", request.data)
+print("JSON:", request.get_json(silent=True))
